@@ -1,4 +1,4 @@
-function iniciar() {
+iniciar= function() {
     var element = $('.floating-chat');
 
     setTimeout(function () {
@@ -9,7 +9,7 @@ function iniciar() {
 }
 
 
-function openElement() {
+openElement= function () {
     var element = $('.floating-chat');
     var messages = element.find('.messages');
     var textInput = element.find('.text-box');
@@ -22,7 +22,7 @@ function openElement() {
     messages.scrollTop(messages.prop("scrollHeight"));
 }
 
-closeElement = function(){
+closeElement = function (){
     var element = $('.floating-chat');
     element.find('.chat').removeClass('enter').hide();
     element.find('>i').show();
@@ -39,7 +39,7 @@ closeElement = function(){
     }, 500);
 }
 
-function createUUID() {
+createUUID = function (){
     // http://www.ietf.org/rfc/rfc4122.txt
     var s = [];
     var hexDigits = "0123456789abcdef";
