@@ -214,6 +214,10 @@ MIT
 MIT
 MIT
 
+ngx-device-detector@1.3.5
+MIT
+MIT
+
 ng-flash-messages@0.3.0
 MIT
 MIT
